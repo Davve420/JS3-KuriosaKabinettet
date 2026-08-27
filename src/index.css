@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: #f4eddf;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #f4eddf;
+	background-image: radial-gradient(#d8c8a9 1px, transparent 1px);
+	background-size: 18px 18px;
+	color: #171717;
+	font-family: "Trebuchet MS", sans-serif;
+}

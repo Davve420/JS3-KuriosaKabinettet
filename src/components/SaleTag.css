@@ -1,0 +1,18 @@
+.SaleTag {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    display: inline-grid;
+    width: 3.6rem;
+    height: 3.6rem;
+    place-items: center;
+    border: 2px solid #171717;
+    border-radius: 50%;
+    background: #e54545;
+    color: #fffdf7;
+    font-family: "Arial Black", sans-serif;
+    font-size: 0.8rem;
+    transform: rotate(-12deg);
+    box-shadow: 3px 3px 0 #171717;
+}

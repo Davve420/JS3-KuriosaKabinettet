@@ -1,0 +1,39 @@
+.StoreHeader {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 4.5rem 1.5rem 2rem;
+}
+
+.StoreKicker {
+	margin: 0 0 0.75rem;
+	color: #e54545;
+	font-size: 0.8rem;
+	font-weight: 900;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.StoreHeader h1 {
+	max-width: 720px;
+	margin: 0;
+	color: #171717;
+	font-family: Georgia, serif;
+	font-size: clamp(3rem, 9vw, 7.5rem);
+	line-height: 0.88;
+}
+
+.StoreHeader > p:last-child {
+	max-width: 32rem;
+	margin: 1.5rem 0 0;
+	font-size: 1.05rem;
+	line-height: 1.5;
+}
+
+.ProductGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	gap: 2rem 1.5rem;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 1rem 1.5rem 5rem;
+}

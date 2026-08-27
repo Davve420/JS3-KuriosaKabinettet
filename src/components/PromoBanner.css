@@ -1,0 +1,15 @@
+.PromoBanner {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-bottom: 2px solid #171717;
+    text-align: center;
+    background-color: #e54545;
+    color: #fffdf7;
+}
+
+.PromoBanner h3 {
+    margin: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}

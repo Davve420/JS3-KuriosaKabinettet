@@ -1,0 +1,66 @@
+.ProductCard {
+    position: relative;
+    min-height: 210px;
+    padding: 1.5rem;
+    overflow: hidden;
+    border: 2px solid #171717;
+    border-radius: 4px;
+    background: #fffdf7;
+    box-shadow: 8px 8px 0 #171717;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.ProductCard::before {
+    position: absolute;
+    top: -2.5rem;
+    right: -2rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: #ffd447;
+    content: "";
+}
+
+.ProductCard:nth-child(2n) {
+    transform: rotate(1.2deg);
+}
+
+.ProductCard:nth-child(3n) {
+    transform: rotate(-1deg);
+}
+
+.ProductCard:hover {
+    transform: translate(-3px, -5px) rotate(0deg);
+    box-shadow: 11px 13px 0 #171717;
+}
+
+.ProductCard h3 {
+    position: relative;
+    max-width: 85%;
+    margin: 0 0 2.5rem;
+    font-family: Georgia, serif;
+    font-size: 1.45rem;
+    line-height: 1.05;
+    overflow-wrap: anywhere;
+}
+
+.ProductCard h6 {
+    position: relative;
+    margin: 0;
+    color: #e54545;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.ProductCard p {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.25rem;
+    margin: 0;
+    padding: 0.3rem 0.55rem;
+    border: 1px solid #171717;
+    background: #b7e4c7;
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
