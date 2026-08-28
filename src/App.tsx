@@ -1,6 +1,7 @@
 import './App.css'
 import ProductCard from './components/ProductCard.tsx'
 import PromoBanner from './components/PromoBanner.tsx'
+import Footer from './components/Footer.tsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <ProductCard name = "Gammalsko(endast en, inte ett par)" price = {100} inStock = " I lager" onSale = {true} /> 
       <ProductCard name = "Raketgevär" price = {20000} inStock = "inte i lager" onSale = {false} />  
       </div>
+      <Footer/>
       </>
   )
 
